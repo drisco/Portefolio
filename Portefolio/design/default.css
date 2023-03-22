@@ -1,0 +1,183 @@
+#logo
+{
+	margin-top:10px;
+	width:200px;
+}
+
+body{
+font-size:1em;
+font-family:calibre,sans-serif;
+	background:#f4f7f6;
+	border:1px black double;
+	margin:0;
+	
+}	
+	
+h1{
+	text-align:center;
+	margin-top:0;
+	padding-top:40px;
+	
+	
+
+	
+}
+header{
+	text-align:center;
+	background: #5083A6;
+	color:white;
+	padding-bottom:10px;
+}
+h1:hover{
+	color:red;
+	transition: 0.5s;
+}
+
+h2{
+	font-family: 'Open Sans', sans-serif;
+	font-style:italic;
+	font-weight:normal;
+	font-size:1.5em;
+	border-radius:10px 30px;
+	width:400px;
+	margin:auto;
+	
+
+}
+section{
+	text-align:center;
+}
+a:hover{
+	font-weight:bold;
+	
+}
+a{
+	color:black;
+	text-decoration:none;
+}
+h3:before{
+	content:' « ';
+	color:grey;
+}
+h3:after{
+	content:' » ';
+	color:grey;
+}
+
+h3{
+	font-size:1.5em;
+	text-transform:uppercase;
+}
+body{
+	font-family:roboto;
+}
+ul{
+	padding:0;
+	display:inline;
+}
+
+li{
+	list-style-type:none;
+	display:inline;
+	margin:10px;
+}
+#contact{
+	border:1px black solid;
+	border-radius:15px ;
+	padding:30px;
+	margin-bottom:50px;
+}
+
+#projets{
+	display:flex;
+	flex-wrap:wrap;
+	display:inline-block;
+	
+	
+}
+}
+*{
+	box-sizing:border-box;
+}
+.separator{
+	width:40px;
+	height:1px;
+	margin-top:15px;
+	margin-bottom:15px;
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+	background:#999999;
+}
+
+.projet{
+	width:400px;
+	margin:30px;
+	
+	background:white;
+	padding-bottom:15px;
+	border:0px black solid;
+	border-radius:10px;
+	overflow:hidden;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+	}   
+		
+.projet:hover{
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+	transition:0.6s;
+	
+}
+.projet img {
+	min-width:400px;
+	height:266px;
+	
+}
+
+.pucture {
+	width:400px;
+	height:266px;
+	overflow:hidden;
+	margin-bottom:15px;
+	
+}
+.projet span{
+	
+	text-transform:uppercase;
+}
+
+.date{
+	font-size:0.7em;
+	display:block;
+	
+}
+
+
+nav{
+	text-align:center;
+	background:white;
+	box-shadow:0px 3px 1px black;
+	font-size:1.1em;
+	padding:15px;
+}
+p{
+	text-align:center;
+	font-size:1.3em;
+}
+footer{
+	background:#1D1D1D;
+	color:white;
+	text-align:center;
+	padding:15px;
+}
+
+@font-face{
+	font-family:'theblacklist';
+	src: url('../src/theblacklist.ttf')format('truetype');
+}
+
+@media all and (max-width: 1000px){
+	body{background: red}
+}
+
+
+
